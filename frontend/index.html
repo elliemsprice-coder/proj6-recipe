@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Recipe Suggester</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Recipe Suggester</h1>
+
+    <section class="input-section">
+      <h2>Enter ingredients</h2>
+      <textarea id="ingredients-input" placeholder="e.g. chicken, rice, garlic"></textarea>
+      <button id="get-recipes-btn">Get Recipes</button>
+    </section>
+
+    <section class="results-section">
+      <h2>Recipe suggestions</h2>
+      <div id="recipes-list"></div>
+    </section>
+
+    <section class="favorites-section">
+      <h2>Favorites</h2>
+      <button id="refresh-favorites-btn">Refresh Favorites</button>
+      <div id="favorites-list"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
