@@ -2,9 +2,37 @@ https://github.com/elliemsprice-coder/proj6-recipe
 ## RECIPE RECOMMENDER
 User enters ingredients and AI returns suggested recipes and saves favorites 
 
+## TECH STACK
+Backend
+Flask 3.x
+
+Python 3.10+
+
+MongoDB 6 (running in Docker)
+
+HuggingFace Inference API (text generation)
+
+Frontend
+Vanilla JavaScript
+
+HTML/CSS
+
+No external JS libraries required
+
+Infrastructure
+Docker (Docker Desktop)
+
+Docker Compose 3.9
+
 ## HOW TO RUN
+
+clone the repository 
+
+Update credentials.ini in the project root
+
 open project folder and start the app using docker compose up --build
 in your browser, visit http://localhost:3000
+
 
 ## ASSIGNMENT QUESTIONS
 The cool part about this project, I think, is what it does.  This project is useful in many ways for indidividuals as it comples a task needed by everyone- the practicality of this projectis what made me decide on it. 
