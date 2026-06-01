@@ -1,4 +1,4 @@
-const apiBase = "/api";
+const apiBase = "http://localhost:5000/api";
 
 document.addEventListener("DOMContentLoaded", () => {
   const ingredientsInput = document.getElementById("ingredients-input");

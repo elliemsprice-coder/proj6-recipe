@@ -22,6 +22,9 @@ services:
       - "5000:5000"
     environment:
       - PYTHONUNBUFFERED=1
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
 
 volumes:
   mongo_data:
